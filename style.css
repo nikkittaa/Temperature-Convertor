@@ -1,0 +1,46 @@
+body{
+    background-color: #FFF3E2;
+    font-family: 'Noto Serif', serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+
+div{
+    background-color:white;
+    display: inline-block;
+    height: 330px;
+    width: 45%;
+    margin: 2%;
+    text-align:center;
+}
+
+.cel{
+    float:left;
+}
+
+.fah{
+    float:right;
+}
+
+input{
+  width: 50%;
+  padding: 15px;
+  margin: 5px 10px 22px 10px;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+button {
+    background-color: #FFE5CA;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+  }

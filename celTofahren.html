@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel = "stylesheet" href = "style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Temperature Converter</h1>
+    <div class = "cel">
+        <h2>Convert from Celsius to Fahrenheit</h2>
+        <hr/>
+        <label for = "celsius">Celsius:</label>
+        <input type = "number" id = "celsius" placeholder="Enter temperature in Celsius"/>
+        <br/><br/>
+        <button id = "convert" onclick="toFah()">Convert!</button>
+        <p id = "result1"></p>
+    </div>
+    <div class = "fah">
+        <h2>Convert from Fahrenheit to Celsius</h2>
+        <hr/>
+        <label for = "fahrenheit">Fahrenheit:</label>
+        <input type = "number" id = "fahrenheit" placeholder="Enter temperature in Fahrenheit"/>
+        <br/><br/>
+        <button id = "convert" onclick="toCel()">Convert!</button>
+        <p id = "result2"></p>
+    </div>
+    <div class = "cel">
+        <h2>Convert from Kelvin to Fahrenheit</h2>
+        <hr/>
+        <label for = "kelvinF">Kelvin:</label>
+        <input type = "number" id = "kelvinF" placeholder="Enter temperature in Kelvin"/>
+        <br/><br/>
+        <button id = "convert" onclick="KtoFah()">Convert!</button>
+        <p id = "result3"></p>
+    </div>
+    <div class = "fah">
+        <h2>Convert from Kelvin to Celsius</h2>
+        <hr/>
+        <label for = "kelvinC">Fahrenheit:</label>
+        <input type = "number" id = "kelvinC" placeholder="Enter temperature in Kelvin"/>
+        <br/><br/>
+        <button id = "convert" onclick="KtoCel()">Convert!</button>
+        <p id = "result4"></p>
+    </div>
+
+    <script src = "script.js"></script>
+</body>
+</html>
